@@ -2,7 +2,6 @@
   <b-navbar
     toggleable="lg"
     type="dark"
-    variant="info"
     class="navbar-horizontal"
     id="sideNav"
   >
@@ -35,4 +34,20 @@ export default {};
     margin: 0px;
   }
 }
+</style>
+
+<style lang="scss">
+  $green: rgba(177,240,10,1);
+  $orange: rgb(189, 147, 56);
+
+  $list1: $green, $orange;
+  @mixin gradient($direction, $list) {
+    background: -webkit-linear-gradient($direction, $list);
+    background: -moz-linear-gradient($direction, $list);
+    background: -o-linear-gradient($direction, $list);
+    background: linear-gradient($direction, $list);
+  }
+  #sideNav {
+    @include gradient(right, $list1);
+  }
 </style>

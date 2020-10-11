@@ -15,6 +15,27 @@ export default {
 };
 </script>
 
+
+<style lang="scss">
+  // Import custom SASS variable overrides, or alternatively
+  // define your variable overrides here instead
+  @import './assets/styles/style.scss';
+
+  // Import Bootstrap and BootstrapVue source SCSS files
+  @import '~bootstrap/scss/bootstrap.scss';
+  @import '~bootstrap-vue/src/index.scss';
+
+  // General style overrides and custom classes
+  body {
+    margin: 0;
+  }
+
+  .my-widget {
+    color: var(--danger);
+  }
+  // ...
+</style>
+
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
