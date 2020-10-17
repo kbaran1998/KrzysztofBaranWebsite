@@ -2,18 +2,67 @@
   <b-navbar
     toggleable="lg"
     type="dark"
-    class="navbar-horizontal"
+    class="navbar-horizontal bg-gradient-warm"
     id="sideNav"
   >
-    <b-navbar-brand href="#">Krzysztof Baran</b-navbar-brand>
+    <div class="brandContainer">
+    <b-navbar-brand id="nameDisplay">
+      <h2 class="text-gradient-cold">
+        <b>Krzysztof Baran</b>
+      </h2>
+    </b-navbar-brand>
+    </div>
+    <div class="profileLinksContainer">
+      <b-img
+        thumbnail
+        fluid
+        v-bind="profilePictureProps"
+        src="../../static/KrzysztofB.jpg"
+        rounded="circle"
+        alt="Circle Profile Picture"
+        id="profilePic">
+      </b-img>
+      <div id="links">
+        <b-link href="#" class="sectionLink boring">About</b-link>
+        <b-link href="#" class="sectionLink">Education</b-link>
+        <b-link href="#" class="sectionLink">Experience</b-link>
+        <b-link href="#" class="sectionLink">Projects</b-link>
+        <b-link href="#" class="sectionLink">Skills</b-link>
+        <b-link href="#" class="sectionLink">Publications</b-link>
+        <b-link href="#" class="sectionLink">Program Committees</b-link>
+        <b-link href="#" class="sectionLink">Extracurricular Activities</b-link>
+      </div>
+    </div>
   </b-navbar>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      profilePictureProps: {
+        fluid: true,
+        width: 200,
+        height: 200,
+      },
+    };
+  },
+};
 </script>
 
 <style scoped>
+
+.sectionLink {
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  #profilePic {
+    width: 25px;
+    height: 25px;
+  }
+}
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -30,24 +79,21 @@ export default {};
     width: 17rem;
     height: 100vh;
   }
-  #header h1 {
-    margin: 0px;
+  .brandContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  .profileLinksContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #links {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
-</style>
-
-<style lang="scss">
-  $green: rgba(177,240,10,1);
-  $orange: rgb(189, 147, 56);
-
-  $list1: $green, $orange;
-  @mixin gradient($direction, $list) {
-    background: -webkit-linear-gradient($direction, $list);
-    background: -moz-linear-gradient($direction, $list);
-    background: -o-linear-gradient($direction, $list);
-    background: linear-gradient($direction, $list);
-  }
-  #sideNav {
-    @include gradient(right, $list1);
-  }
 </style>
