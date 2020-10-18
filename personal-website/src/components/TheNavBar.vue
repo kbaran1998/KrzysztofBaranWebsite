@@ -1,18 +1,18 @@
 <template>
-  <b-navbar
-    toggleable="lg"
+  <b-navbar toggleable="lg"
     type="dark"
-    class="navbar-horizontal bg-gradient-warm"
-    id="sideNav"
-  >
+    variant="info"
+    class="bg-gradient-warm"
+    id="sideNav">
+
     <div class="brandContainer">
-    <b-navbar-brand id="nameDisplay">
-      <h2 class="text-gradient-cold">
-        <b>Krzysztof Baran</b>
-      </h2>
-    </b-navbar-brand>
+      <b-navbar-brand id="nameDisplay">
+        <h2 class="text-gradient-cold">
+          <b>Krzysztof Baran</b>
+        </h2>
+      </b-navbar-brand>
     </div>
-    <div class="profileLinksContainer">
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-img
         thumbnail
         fluid
@@ -22,17 +22,19 @@
         alt="Circle Profile Picture"
         id="profilePic">
       </b-img>
-      <div id="links">
-        <b-link href="#" class="sectionLink boring">About</b-link>
-        <b-link href="#" class="sectionLink">Education</b-link>
-        <b-link href="#" class="sectionLink">Experience</b-link>
-        <b-link href="#" class="sectionLink">Projects</b-link>
-        <b-link href="#" class="sectionLink">Skills</b-link>
-        <b-link href="#" class="sectionLink">Publications</b-link>
-        <b-link href="#" class="sectionLink">Program Committees</b-link>
-        <b-link href="#" class="sectionLink">Extracurricular Activities</b-link>
-      </div>
-    </div>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav id="links" class="sectionLink">
+          <b-nav-item href="#">About</b-nav-item>
+          <b-nav-item href="#">Education</b-nav-item>
+          <b-nav-item href="#">Experience</b-nav-item>
+          <b-nav-item href="#">Projects</b-nav-item>
+          <b-nav-item href="#">Skills</b-nav-item>
+          <b-nav-item href="#">Publications</b-nav-item>
+          <b-nav-item href="#">Program Committees</b-nav-item>
+          <b-nav-item href="#">Extracurricular Activities</b-nav-item>
+          <b-nav-item href="#">Contact Me</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
   </b-navbar>
 </template>
 
@@ -42,8 +44,8 @@ export default {
     return {
       profilePictureProps: {
         fluid: true,
-        width: 200,
-        height: 200,
+        width: 150,
+        height: 150,
       },
     };
   },
@@ -54,13 +56,19 @@ export default {
 
 .sectionLink {
   font-weight: bold;
-  color: white;
+  font-size:1.1rem;
+  background-image: linear-gradient(90deg, #2c35b6, #27b6c0);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   #profilePic {
-    width: 25px;
-    height: 25px;
+    display: none;
   }
 }
 @media (min-width: 992px) {
@@ -83,17 +91,21 @@ export default {
     display: flex;
     align-items: flex-start;
   }
-  .profileLinksContainer {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  #profilePic {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 8px solid rgba(255, 255, 255, 0.2);
   }
-  #links {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  #nameDisplay {
+    display: none;
   }
 }
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+  }
 </style>
