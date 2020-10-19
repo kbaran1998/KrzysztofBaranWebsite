@@ -24,15 +24,9 @@
       </b-img>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav id="links" class="sectionLink">
-          <b-nav-item href="#">About</b-nav-item>
-          <b-nav-item href="#">Education</b-nav-item>
-          <b-nav-item href="#">Experience</b-nav-item>
-          <b-nav-item href="#">Projects</b-nav-item>
-          <b-nav-item href="#">Skills</b-nav-item>
-          <b-nav-item href="#">Publications</b-nav-item>
-          <b-nav-item href="#">Program Committees</b-nav-item>
-          <b-nav-item href="#">Extracurricular Activities</b-nav-item>
-          <b-nav-item href="#">Contact Me</b-nav-item>
+          <b-nav-item v-for="profile in profileJson" :key="profile.tag" :href="profile.tag">
+            {{profile.name}}
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
   </b-navbar>
@@ -40,6 +34,7 @@
 
 <script>
 import VueResponsiveText from 'vue-responsive-text';
+import Profile from '../assets/profile.json';
 
 export default {
   components: {
@@ -51,6 +46,7 @@ export default {
         fluid: true,
         width: 300,
       },
+      profileJson: Profile,
     };
   },
 };
