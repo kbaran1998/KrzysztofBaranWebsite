@@ -44,8 +44,7 @@ export default {
     return {
       profilePictureProps: {
         fluid: true,
-        width: 150,
-        height: 150,
+        width: 200,
       },
     };
   },
@@ -70,11 +69,15 @@ export default {
   #profilePic {
     display: none;
   }
+  #sideNav {
+    position: absolute;
+    width: 100%
+  }
 }
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
     position: fixed;
+    text-align: center;
     top: 0;
     left: 0;
     display: -webkit-box !important;
@@ -84,7 +87,7 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 20%;
     height: 100vh;
   }
   .brandContainer {
