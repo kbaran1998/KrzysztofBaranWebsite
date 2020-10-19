@@ -2,8 +2,7 @@
   <div id="page-top">
     <NavBar />
     <b-container fluid class="p-0">
-      <ResumeSection color="#a2f3f2" />
-      <ResumeSection />
+      <ResumeSection color="#f0f0f0" />
     </b-container>
   </div>
 </template>
@@ -25,3 +24,6 @@ export default {
   },
 };
 </script>
+
+<style>
+</style>

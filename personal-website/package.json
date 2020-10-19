@@ -20,7 +20,8 @@
     "less-loader": "^7.0.2",
     "node-sass": "^4.14.1",
     "style-loader": "^2.0.0",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "vue-responsive-text": "^0.1.4"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.11.5",

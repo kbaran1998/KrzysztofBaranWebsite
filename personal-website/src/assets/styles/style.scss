@@ -4,6 +4,8 @@ $orange: rgba(253,187,45,1);
 
 $list1: $green, $orange;
 
+$enable-responsive-font-sizes: true;
+
 @mixin gradient($direction, $list) {
   background: -webkit-linear-gradient($direction, $list);
   background: -moz-linear-gradient($direction, $list);
@@ -16,7 +18,8 @@ $gradients: map-merge((
     chill: linear-gradient(135deg, #09e485 0%,#0291e3 100%),
     warm: linear-gradient(135deg, #F2CD48 0%,#FD803F 100%),
     hot: linear-gradient(135deg, #F9445A 0%,#FD803F 100%),
-    cold: linear-gradient(135deg, #8019C6 0%,#2F93CC 100%),
+    cold: linear-gradient(135deg, #611594 0%,#2F93CC 100%),
+    burned: linear-gradient(135deg, #753c06 0%,#a85c04 100%),
 ), $gradients);
 
 // Gradient backgrounds

@@ -2,7 +2,7 @@
   <b-navbar toggleable="lg"
     type="dark"
     variant="info"
-    class="bg-gradient-warm"
+    class="bg-gradient-burned"
     id="sideNav">
 
     <div class="brandContainer">
@@ -39,12 +39,17 @@
 </template>
 
 <script>
+import VueResponsiveText from 'vue-responsive-text';
+
 export default {
+  components: {
+    VueResponsiveText,
+  },
   data() {
     return {
       profilePictureProps: {
         fluid: true,
-        width: 200,
+        width: 300,
       },
     };
   },
@@ -56,7 +61,7 @@ export default {
 .sectionLink {
   font-weight: bold;
   font-size:1.1rem;
-  background-image: linear-gradient(90deg, #2c35b6, #27b6c0);
+  background-image: linear-gradient(90deg, #ffffff, #adadad);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -87,7 +92,7 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 20%;
+    width: 18%;
     height: 100vh;
   }
   .brandContainer {

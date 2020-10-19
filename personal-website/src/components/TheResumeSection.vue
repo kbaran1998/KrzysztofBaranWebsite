@@ -2,11 +2,9 @@
   <section
     :style="{ backgroundColor: color }"
     class="resume-section p-3 p-lg-5 d-flex d-column"
-    id="about"
     data-metatip="true"
     data-selected="true"
     data-label-id="0">
-      Heyyyyyyyyyyyyyyda!!!!!!!!!!!!!AAAAAAAAAAAA
   </section>
 </template>
 
@@ -39,5 +37,10 @@ export default {
     line-height: 24px;
     padding: 48px;
     text-align: left;
+ }
+ @media (min-width: 992px) {
+  .resume-section {
+    margin-left: 18%;
+  }
  }
 </style>
