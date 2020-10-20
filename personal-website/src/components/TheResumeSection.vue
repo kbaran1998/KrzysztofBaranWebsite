@@ -5,7 +5,7 @@
     data-metatip="true"
     data-selected="true"
     data-label-id="0">
-    <h1>{{ nameSection }}</h1>
+    <slot></slot>
   </section>
 </template>
 
@@ -15,10 +15,6 @@ export default {
     color: {
       type: String,
       default: '#ffffff',
-    },
-    nameSection: {
-      type: String,
-      required: true,
     },
   },
 };

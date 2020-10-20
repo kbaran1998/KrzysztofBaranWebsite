@@ -7,7 +7,9 @@
         :key="profile.tag"
         :id="profile.tag"
         color="#f0f0f0"
-        :nameSection="profile.name" />
+        data-aos="fade">
+        <h1>{{ profile.name }}</h1>
+      </ResumeSection>
     </b-container>
   </div>
 </template>

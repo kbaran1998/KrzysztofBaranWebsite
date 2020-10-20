@@ -1,11 +1,11 @@
 [
-  {"name": "About", "tag":"#about"},
-  {"name": "Education", "tag":"#education"},
-  {"name": "Experience", "tag":"#experience"},
-  {"name": "Projects", "tag":"#projects"},
-  {"name": "Skills", "tag":"#skills"},
-  {"name": "Publications", "tag":"#publications"},
-  {"name": "Program Committees", "tag":"#program-committees"},
-  {"name": "Extracurricular Activities", "tag":"#extracurricular-activities"},
-  {"name": "Contact Me", "tag":"#contact-me"}
+  {"name": "About", "tag":"about"},
+  {"name": "Education", "tag":"education"},
+  {"name": "Experience", "tag":"experience"},
+  {"name": "Projects", "tag":"projects"},
+  {"name": "Skills", "tag":"skills"},
+  {"name": "Publications", "tag":"publications"},
+  {"name": "Program Committees", "tag":"program-committees"},
+  {"name": "Extracurricular Activities", "tag":"extracurricular-activities"},
+  {"name": "Contact Me", "tag":"contact-me"}
 ]

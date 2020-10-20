@@ -24,7 +24,7 @@
       </b-img>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav id="links" class="sectionLink">
-          <b-nav-item v-for="profile in profileJson" :key="profile.tag" :href="profile.tag">
+          <b-nav-item v-for="profile in profileJson" :key="profile.tag" :href="'#'+(profile.tag)">
             {{profile.name}}
           </b-nav-item>
         </b-navbar-nav>
