@@ -2,13 +2,19 @@ import '@babel/polyfill';
 import 'mutationobserver-shim';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 // eslint-disable-next-line import/first
 import Vue from 'vue';
 import './plugins/bootstrap-vue';
-
 import App from './App';
+
+library.add(faUserSecret, faLinkedin, faGithub);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 const AOSsettings = {

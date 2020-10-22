@@ -3,12 +3,9 @@
     <NavBar />
     <b-container fluid class="p-0">
       <ResumeSection
-        v-for="profile in profileData"
-        :key="profile.tag"
-        :id="profile.tag"
         color="#f0f0f0"
         data-aos="fade">
-        <h1>{{ profile.name }}</h1>
+        <About :aboutData="profileAbout" />
       </ResumeSection>
     </b-container>
   </div>
@@ -18,17 +15,27 @@
 import NavBar from './TheNavBar';
 import ResumeSection from './TheResumeSection';
 import Profile from '../assets/profile.json';
+import About from './sections/TheAboutSection';
 
 export default {
   name: 'MainView',
   components: {
     NavBar,
     ResumeSection,
+    About,
   },
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
-      profileData: Profile,
+      profileAbout: Profile[0],
+      profileEducation: Profile[1],
+      profileExperience: Profile[2],
+      profileProjects: Profile[3],
+      profileSkills: Profile[4],
+      profilePublications: Profile[5],
+      profileProgramCommittees: Profile[6],
+      profileExtracurricularActivities: Profile[7],
+      profileContact: Profile[8],
     };
   },
 };

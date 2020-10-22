@@ -1,11 +1,46 @@
 [
-  {"name": "About", "tag":"about"},
-  {"name": "Education", "tag":"education"},
-  {"name": "Experience", "tag":"experience"},
-  {"name": "Projects", "tag":"projects"},
-  {"name": "Skills", "tag":"skills"},
-  {"name": "Publications", "tag":"publications"},
-  {"name": "Program Committees", "tag":"program-committees"},
-  {"name": "Extracurricular Activities", "tag":"extracurricular-activities"},
-  {"name": "Contact Me", "tag":"contact-me"}
+    {
+        "name" : "About",
+        "tag" : "about",
+        "title" : "Krzysztof Baran",
+        "email" : "krysbaran@gmail.com",
+        "summary" : "A passionate Computer Science student and a Software Engineer with wide ranging interests including Machine Learning, Web Development, Video Game Making and Embedded Software. I am currently looking for new and exciting opportunities in Software Engineering for Internships, Part‑Time jobs or Graduate Level positions.",
+        "socailLinks" : {
+          "github": "https://github.com/kbaran1998",
+          "linkedin": "https://www.linkedin.com/in/krzysztof-baran-70701a153/"
+        },
+        "cvLink": "https://1drv.ms/b/s!AnEExJKHUjgQgbM22waoUySPvS6J1A"
+    },
+    {
+        "name": "Education",
+        "tag": "education"
+    },
+    {
+        "name": "Experience",
+        "tag": "experience"
+    },
+    {
+        "name": "Projects",
+        "tag": "projects"
+    },
+    {
+        "name": "Skills",
+        "tag": "skills"
+    },
+    {
+        "name": "Publications",
+        "tag": "publications"
+    },
+    {
+        "name": "Program Committees",
+        "tag": "program-committees"
+    },
+    {
+        "name": "Extracurricular Activities",
+        "tag": "extracurricular-activities"
+    },
+    {
+        "name": "Contact",
+        "tag": "contact-me"
+    }
 ]
