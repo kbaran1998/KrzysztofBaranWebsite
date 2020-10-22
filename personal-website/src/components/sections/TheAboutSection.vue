@@ -1,17 +1,27 @@
 <template>
-  <div class="contentCenter">
+  <div class="contentCenter" :id="aboutData.tag">
     <div>
       <h1 class="display-1">{{aboutData.title}}</h1>
       <h4>
-        <a :href="aboutData.email">{{aboutData.email}}</a>
+        <a :href="`mailto: ${aboutData.email}`">{{aboutData.email}}</a>
       </h4>
       <hr>
       <p class="lead">{{aboutData.summary}}</p>
-      <b-button pill id="viewCVbtn" @click="$bvModal.show('resumeModal')">Resume</b-button>
+      <b-button pill id="viewCVbtn" @click="$bvModal.show('thisModal')">Resume</b-button>
       <b-tooltip target="viewCVbtn" triggers="hover" placement="right">
         View my <b>Resume</b> here!
       </b-tooltip>
-      <TheModal />
+      <TheModal title="Resume">
+        <iframe
+          src="https://onedrive.live.com/embed?cid=1038528792C40471&resid=1038528792C40471%2122966&authkey=AD11GlJdhx2w9us&em=2"
+          width="70%"
+          height="300px"
+          frameborder="1"
+          scrolling="yes"
+          loading="lazy"
+          >
+        </iframe>
+      </TheModal>
       <div class="social-icons">
         <a target="_blank"
           v-for="(link, index) in aboutData.socailLinks"

@@ -3,9 +3,14 @@
     <NavBar />
     <b-container fluid class="p-0">
       <ResumeSection
-        color="#f0f0f0"
+        color="#e8f5dc"
         data-aos="fade">
         <About :aboutData="profileAbout" />
+      </ResumeSection>
+      <ResumeSection
+        color="#f3f5dc"
+        data-aos="fade">
+        <Education :educationData="profileEducation" />
       </ResumeSection>
     </b-container>
   </div>
@@ -14,8 +19,9 @@
 <script>
 import NavBar from './TheNavBar';
 import ResumeSection from './TheResumeSection';
-import Profile from '../assets/profile.json';
+import ProfileData from '../assets/profile.json';
 import About from './sections/TheAboutSection';
+import Education from './sections/TheEducationSection';
 
 export default {
   name: 'MainView',
@@ -23,19 +29,20 @@ export default {
     NavBar,
     ResumeSection,
     About,
+    Education,
   },
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
-      profileAbout: Profile[0],
-      profileEducation: Profile[1],
-      profileExperience: Profile[2],
-      profileProjects: Profile[3],
-      profileSkills: Profile[4],
-      profilePublications: Profile[5],
-      profileProgramCommittees: Profile[6],
-      profileExtracurricularActivities: Profile[7],
-      profileContact: Profile[8],
+      profileAbout: ProfileData[0],
+      profileEducation: ProfileData[1],
+      profileExperience: ProfileData[2],
+      profileProjects: ProfileData[3],
+      profileSkills: ProfileData[4],
+      profilePublications: ProfileData[5],
+      profileProgramCommittees: ProfileData[6],
+      profileExtracurricularActivities: ProfileData[7],
+      profileContact: ProfileData[8],
     };
   },
 };

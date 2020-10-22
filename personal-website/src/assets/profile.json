@@ -8,12 +8,34 @@
         "socailLinks" : {
           "github": "https://github.com/kbaran1998",
           "linkedin": "https://www.linkedin.com/in/krzysztof-baran-70701a153/"
-        },
-        "cvLink": "https://1drv.ms/b/s!AnEExJKHUjgQgbM22waoUySPvS6J1A"
+        }
     },
     {
         "name": "Education",
-        "tag": "education"
+        "tag": "education",
+        "schools": [
+          {
+            "name": "Delft Univerity of technology",
+            "study": "BSc Computer Science and Engineering",
+            "from": "Sept 2017",
+            "to": "(expected graducation) Jul 2021",
+            "description": "Relevant Courses: Algorithms and Data Structures,Algorithm Design,Object Oriented Programong,Software Engineering Methods,Calculus,Probability And Statistics,Linear Algebra,Operating Systems,Logic Based AI"
+          },
+          {
+            "name": "Leiden University",
+            "study": "Minor in Game Studies and Cultural Analysis",
+            "from": "Sept 2020",
+            "to": "Jul 2021",
+            "description": "Minor as a part of my Bachelor."
+          },
+          {
+            "name": "The British School of the Netherlands",
+            "study": "High School",
+            "from": "Sept 2010",
+            "to": "Jul 2017",
+            "description": "International Baccalaureate Diploma and GCSE holder."
+          }
+        ]
     },
     {
         "name": "Experience",
