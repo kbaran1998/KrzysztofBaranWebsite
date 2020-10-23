@@ -12,6 +12,11 @@
         data-aos="fade">
         <Education :educationData="profileEducation" />
       </ResumeSection>
+      <ResumeSection
+        color="#f2f4de"
+        data-aos="fade">
+        <Experience :experienceData="profileExperience" />
+      </ResumeSection>
     </b-container>
   </div>
 </template>
@@ -22,6 +27,7 @@ import ResumeSection from './TheResumeSection';
 import ProfileData from '../assets/profile.json';
 import About from './sections/TheAboutSection';
 import Education from './sections/TheEducationSection';
+import Experience from './sections/TheExperienceSection';
 
 export default {
   name: 'MainView',
@@ -30,6 +36,7 @@ export default {
     ResumeSection,
     About,
     Education,
+    Experience,
   },
   data() {
     return {

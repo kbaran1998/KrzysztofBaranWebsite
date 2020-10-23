@@ -32,7 +32,7 @@ export default {
     padding-top: 5rem!important;
     padding-bottom: 5rem!important;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
     color:#868e96;
     display: flex;
     gap: normal;

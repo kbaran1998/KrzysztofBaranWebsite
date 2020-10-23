@@ -1,48 +1,89 @@
 [
     {
-        "name" : "About",
-        "tag" : "about",
-        "title" : "Krzysztof Baran",
-        "email" : "krysbaran@gmail.com",
-        "summary" : "A passionate Computer Science student and a Software Engineer with wide ranging interests including Machine Learning, Web Development, Video Game Making and Embedded Software. I am currently looking for new and exciting opportunities in Software Engineering for Internships, Part‑Time jobs or Graduate Level positions.",
-        "socailLinks" : {
-          "github": "https://github.com/kbaran1998",
-          "linkedin": "https://www.linkedin.com/in/krzysztof-baran-70701a153/"
+        "name": "About",
+        "tag": "about",
+        "title": "Krzysztof Baran",
+        "email": "krysbaran@gmail.com",
+        "summary": "A passionate Computer Science student and a Software Engineer with wide ranging interests including Machine Learning, Web Development, Video Game Making and Embedded Software. I am currently looking for new and exciting opportunities in Software Engineering for Internships, Part‑Time jobs or Graduate Level positions.",
+        "socailLinks": {
+            "github": "https://github.com/kbaran1998",
+            "linkedin": "https://www.linkedin.com/in/krzysztof-baran-70701a153/"
         }
     },
     {
         "name": "Education",
         "tag": "education",
         "schools": [
-          {
-            "name": "Delft Univerity of technology",
-            "study": "BSc Computer Science and Engineering",
-            "from": "September 2017",
-            "to": "July 2021 (expected)",
-            "photoSrc": "../../../static/tudelft.png",
-            "description": "Relevant Courses: Algorithms and Data Structures,Algorithm Design,Object Oriented Programong,Software Engineering Methods,Calculus,Probability And Statistics,Linear Algebra,Operating Systems,Logic Based AI"
-          },
-          {
-            "name": "Leiden University",
-            "study": "Minor in Game Studies and Cultural Analysis",
-            "from": "September 2020",
-            "to": "July 2021",
-            "photoSrc": "../../../static/leidenuni.png",
-            "description": "Minor as a part of my Bachelor."
-          },
-          {
-            "name": "The British School of the Netherlands",
-            "study": "High School",
-            "from": "September 2010",
-            "to": "July 2017",
-            "photoSrc": "../../../static/bsn.png",
-            "description": "International Baccalaureate Diploma and GCSE holder."
-          }
+            {
+                "name": "Delft Univerity of technology",
+                "study": "BSc Computer Science and Engineering",
+                "from": "September 2017",
+                "to": "July 2021 (expected)",
+                "photoSrc": "../../../static/tudelft.png",
+                "place": "Delft, The Netherlands",
+                "description": "Relevant Courses: Algorithms and Data Structures,Algorithm Design,Object Oriented Programong,Software Engineering Methods,Calculus,Probability And Statistics,Linear Algebra,Operating Systems,Logic Based AI"
+            },
+            {
+                "name": "Leiden University",
+                "study": "Minor in Game Studies and Cultural Analysis",
+                "from": "September 2020",
+                "to": "July 2021",
+                "photoSrc": "../../../static/leidenuni.png",
+                "place": "Leiden, The Netherlands",
+                "description": "Minor as a part of my Bachelor."
+            },
+            {
+                "name": "The British School of the Netherlands",
+                "study": "High School",
+                "from": "September 2010",
+                "to": "July 2017",
+                "photoSrc": "../../../static/bsn.png",
+                "place": "Voorschooten, The Netherlands",
+                "description": "International Baccalaureate Diploma and GCSE holder."
+            }
         ]
     },
     {
         "name": "Experience",
-        "tag": "experience"
+        "tag": "experience",
+        "experiences": [
+            {
+                "company": "TOPdesk Netherlands BV",
+                "position": "SOFTWARE DEVELOPMENT INTERNSHIP",
+                "place": "Delft, The Netherlands",
+                "from": "July 2020",
+                "to": "August 2020",
+                "points": ["Learned to write cleaner and robust software in Java and JavaScript (Vue.js as Front‑End), and learned and used APIs by making small test projects for which I received feedback.", "Created an Asset Track and Trace Management project that is used in the Health Care sector by 588 customers and is further developed and integrated into the TOPdesk’s main Software Product."],
+                "photoSrc": "../../../static/topdesk.png"
+            },
+            {
+                "company": "Delft University of Technology",
+                "position": "TEACHING ASSISTANT",
+                "place": "Delft, The Netherlands",
+                "from": "September 2017",
+                "to": "PRESENT",
+                "points": ["Teaching Assistant for TI1406/CSE1400 Computer Organisation (2018/19, 2019/20, 2020/21), TI2206/CSE2115 Software Engineering Methods (2019/20), TI2726‑C/CSE2430 Operating Systems (2019/20) and TI3115TU Software Engineering Methods for Minor students (2020/21) courses.", " I have produced and signed off student’s assignments for up to 800 students, contributed to course content, marked exams, supervised students during the exam and occasionally gave classes.", "By doing so, I have learned to teach new topics, to give feedback and understand other people’s way of thinking."],
+                "photoSrc": "../../../static/tudelft.png"
+            },
+            {
+                "company": "DelftX (edX from Delft University of Technology)",
+                "position": "MOOC MODERATOR",
+                "place": "Delft, The Netherlands",
+                "from": " November 2018",
+                "to": "March 2019",
+                "points": ["MOOC moderator for two courses: ”Automated Software Testing: Unit Testing, Coverage Criteria and Design for Testability” and ”Automated Software Testing: Model and State‑based Testing” on DelftX.", "Worked on helping 200+ students around the world to progress and learn in the discussion forum in these two courses about the usage of JUnit5 and theory of testing."],
+                "photoSrc": "../../../static/delftX.jpg"
+            },
+            {
+                "company": "Delft Aerospace Rocket Engineering",
+                "position": "SOFTWARE AND ELECTRONICS ENGINEER",
+                "place": "Delft, The Netherlands",
+                "from": " Aug. 2019",
+                "to": "PRESENT",
+                "points": ["A member of the Electronics team for the Stratos 4 rocket project (first student team to launch a rocket to space).", "Soldered electronic components onto PCBs designed within DARE.", "Wrote and refactored software for the Rocket’s recovery/retrieval system, drivers for gyroscopes, pressure sensors and GPS antennas in C/C++ which was used in the main flight computer.", "Created and maintained members’ website and database."],
+                "photoSrc": "../../../static/dare.png"
+            }
+        ]
     },
     {
         "name": "Projects",
