@@ -3,6 +3,7 @@
     type="dark"
     variant="info"
     class="bg-gradient-burned"
+    role="navigation"
     id="sideNav">
 
     <div class="brandContainer">
@@ -71,13 +72,12 @@ export default {
     display: none;
   }
   #sideNav {
-    position: absolute;
-    width: 100%
+    width: 100%;
+    z-index: 100;
   }
 }
 @media (min-width: 992px) {
   #sideNav {
-    position: fixed;
     text-align: center;
     top: 0;
     left: 0;
@@ -104,6 +104,10 @@ export default {
   #nameDisplay {
     display: none;
   }
+}
+
+#sideNav {
+  position: fixed;
 }
 
 #links {

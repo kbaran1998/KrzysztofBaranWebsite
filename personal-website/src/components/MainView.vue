@@ -13,7 +13,7 @@
         <Education :educationData="profileEducation" />
       </ResumeSection>
       <ResumeSection
-        color="#f2f4de"
+        color="#d7f1f5"
         data-aos="fade">
         <Experience :experienceData="profileExperience" />
       </ResumeSection>
