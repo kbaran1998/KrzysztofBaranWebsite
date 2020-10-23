@@ -6,6 +6,7 @@
     data-selected="true"
     data-label-id="0">
     <slot></slot>
+    <hr>
   </section>
 </template>
 
