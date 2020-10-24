@@ -2,6 +2,8 @@
     {
         "name": "About",
         "tag": "about",
+        "CVlink": "https://onedrive.live.com/embed?cid=1038528792C40471&resid=1038528792C40471%2122966&authkey=AD11GlJdhx2w9us&em=2",
+        "CVdownloadLink": "https://onedrive.live.com/download?cid=1038528792C40471&resid=1038528792C40471%2122966&authkey=AD11GlJdhx2w9us&em=2",
         "title": "Krzysztof Baran",
         "email": "krysbaran@gmail.com",
         "summary": "A passionate Computer Science student and a Software Engineer with wide ranging interests including Machine Learning, Web Development, Video Game Making and Embedded Software. I am currently looking for new and exciting opportunities in Software Engineering for Internships, Part‑Time jobs or Graduate Level positions.",
@@ -87,7 +89,14 @@
     },
     {
         "name": "Projects",
-        "tag": "projects"
+        "tag": "projects",
+        "projects": [
+          {
+            "name":"Robyn Chatbot",
+            "description": "A counselling Chatbot (powered by machine learning) made for Police Officers who are struggling with mental or work related issues they cannot discuss with their colleagues or family",
+            "technologies": ["Python","Rasa","Imgur API","AngularJS","SQL","Redis","pandas"]
+          }
+        ]
     },
     {
         "name": "Skills",

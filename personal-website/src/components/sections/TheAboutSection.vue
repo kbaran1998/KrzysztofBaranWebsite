@@ -13,7 +13,7 @@
       </b-tooltip>
       <TheModal title="Resume">
         <iframe
-          src="https://onedrive.live.com/embed?cid=1038528792C40471&resid=1038528792C40471%2122966&authkey=AD11GlJdhx2w9us&em=2"
+          :src="aboutData.CVlink"
           width="70%"
           height="300px"
           frameborder="1"
@@ -21,6 +21,7 @@
           loading="lazy"
           >
         </iframe>
+        <b-button class="mt-3" block v-on:click="openDownloadWindow()">Download Resume</b-button>
       </TheModal>
       <div class="social-icons">
         <a target="_blank"
@@ -47,6 +48,11 @@ export default {
   },
   components: {
     TheModal,
+  },
+  methods: {
+    openDownloadWindow() {
+      window.open(this.aboutData.CVdownloadLink, '_blank');
+    },
   },
 };
 </script>
