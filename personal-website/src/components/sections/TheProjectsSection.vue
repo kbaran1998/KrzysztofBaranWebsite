@@ -38,4 +38,8 @@ export default {
 .projectCard {
   border-width: medium medium medium !important;
 }
+
+.card-img .card-img-top .card-img-bottom {
+  width: 60% !important;
+}
 </style>
