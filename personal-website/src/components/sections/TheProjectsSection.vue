@@ -107,4 +107,8 @@ export default {
   position:absolute;
   bottom:3px;
 }
+.card-title {
+  font-weight: bold;
+  color:yellow;
+}
 </style>
