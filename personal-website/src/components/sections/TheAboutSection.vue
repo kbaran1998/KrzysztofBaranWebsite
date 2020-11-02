@@ -7,7 +7,7 @@
       </h4>
       <hr>
       <p class="lead">{{aboutData.summary}}</p>
-      <b-button pill id="viewCVbtn" @click="$bvModal.show('thisModal')">Resume</b-button>
+      <b-button pill id="viewCVbtn" @click="$bvModal.show('modal-resume')">Resume</b-button>
       <b-tooltip target="viewCVbtn" triggers="hover" placement="right">
         View my <b>Resume</b> here!
       </b-tooltip>

@@ -1,12 +1,12 @@
 <template>
-  <b-modal id="thisModal" size="xl" hide-footer>
+  <b-modal :id="modalId" size="xl" hide-footer>
     <template #modal-title>
       {{title}}
     </template>
     <div class="d-block text-center">
       <slot></slot>
     </div>
-    <b-button class="mt-3" block @click="$bvModal.hide('thisModal')">Close Me</b-button>
+    <b-button class="mt-3" block @click="$bvModal.hide(modalId)">Close Me</b-button>
   </b-modal>
 </template>
 
@@ -17,6 +17,11 @@ export default {
     title: {
       type: String,
       required: true,
+    },
+  },
+  computed: {
+    modalId() {
+      return 'modal-'.concat(this.title.toLowerCase());
     },
   },
 };

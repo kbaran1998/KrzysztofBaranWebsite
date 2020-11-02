@@ -96,17 +96,37 @@
             "description": "Asset Track and Tracing Web Application Summer Internship Project at TOPdesk. A Web Application that is connected to the TOPdesk’s Asset system. It enables user to update their assets (with possibility to use QR code) or have an overview of a specific asset type.",
             "technologies": ["Vue.js", "Bulma.io", "Buefy", "JavaScript", "HTML", "CSS"],
             "mainPhotoSrc": "../../../static/projects/toptrace/logo.png",
-            "photosFolder": "../../../static/projects/toptrace",
+            "photos": [
+              "../../../static/projects/toptrace/addingItem.PNG",
+              "../../../static/projects/toptrace/Expanded.PNG",
+              "../../../static/projects/toptrace/FindAssetAutoCom.PNG",
+              "../../../static/projects/toptrace/Loading.PNG",
+              "../../../static/projects/toptrace/logo.png",
+              "../../../static/projects/toptrace/mainScreen.PNG",
+              "../../../static/projects/toptrace/QRcode.PNG",
+              "../../../static/projects/toptrace/RemoveFromList.PNG",
+              "../../../static/projects/toptrace/SearchBeamer.PNG"
+             ],
             "links": [
               {"type": "YouTube", "link":"https://www.youtube.com/watch?v=8gjbgjAehrc"}
             ]
           },
           {
             "name":"Robyn Chatbot",
-            "description": "A counselling Chatbot (powered by machine learning) made for Police Officers who are struggling with mental or work related issues they cannot discuss with their colleagues or family.",
+            "description": "A counselling Chatbot (powered by machine learning) made for Police Officers who are struggling with mental or work related issues they cannot discuss with their colleagues or family. This was a project at Delft University of Technology for 5 people.",
             "technologies": ["Python","Rasa","Imgur API","AngularJS","SQL","Redis","pandas"],
             "mainPhotoSrc": "../../../static/projects/robynChatBot/robynLogo.png",
-            "photosFolder": "../../../static/projects/robynChatBot",
+            "photos": [
+              "../../../static/projects/robynChatBot/graph1.PNG",
+              "../../../static/projects/robynChatBot/graph2.PNG",
+              "../../../static/projects/robynChatBot/main_screen.png",
+              "../../../static/projects/robynChatBot/main_screen_phone.png",
+              "../../../static/projects/robynChatBot/questionnaire.PNG",
+              "../../../static/projects/robynChatBot/robynLogo.png",
+              "../../../static/projects/robynChatBot/Robyn_Telegram_screenshot.png",
+              "../../../static/projects/robynChatBot/simpleQuestion.PNG",
+              "../../../static/projects/robynChatBot/terminal_screenshot.PNG"
+             ],
             "links": [
               {"type": "YouTube", "link":"https://www.youtube.com/watch?v=RvcfJkFnMp8"},
               {"type": "Website", "link":"http://context-rasa.ewi.tudelft.nl/home"}
@@ -117,7 +137,13 @@
             "description": "An online platform for relatives to connect with patients and clinical staff through video calls.",
             "technologies": ["Java", "JUnit5", "Spring" , "JavaScript", "HTML", "CSS"],
             "mainPhotoSrc": "../../../static/projects/weVisit/logo.png",
-            "photosFolder": "../../../static/projects/weVisit",
+            "photos": [
+              "../../../static/projects/weVisit/account.PNG",
+              "../../../static/projects/weVisit/FrontPageWeVisit.PNG",
+              "../../../static/projects/weVisit/logo.png",
+              "../../../static/projects/weVisit/patients.PNG",
+              "../../../static/projects/weVisit/Units.PNG"
+             ],
             "links": [
               {"type": "Website", "link":"https://wevisit.hospital/"}
             ]
@@ -127,7 +153,12 @@
             "description": "Java application with GUI and JSON database that is made for people who have low literacy. Since quite a high percentage (13%) of people in the Netherlands have problems with reading, I and my group designed different problem sets with responsive feedback that keeps track of the user’s progress. I was responsible for the backend, frontend and interaction between the database and the application.",
             "technologies": ["Java", "JavaX", "JSON", "TravisCI"],
             "mainPhotoSrc": "../../../static/projects/GetLit/getLitLogo.PNG",
-            "photosFolder": "../../../static/projects/GetLit",
+            "photos": [
+              "../../../static/projects/GetLit/frontPage.PNG",
+              "../../../static/projects/GetLit/getLitLogo.PNG",
+              "../../../static/projects/GetLit/question.PNG",
+              "../../../static/projects/GetLit/setting.PNG"
+             ],
             "links": [
               {"type": "YouTube", "link":"https://www.youtube.com/watch?v=i7HCnHEziok&feature=youtu.be"}
             ]
@@ -137,7 +168,13 @@
             "description": "Created a line follower with a motor-attached Arduino (Mega 2560) that received movement commands which were generated by the input data from the processed image (from the phone camera) by the laptop and attached sensors on the Arduino.",
             "technologies": ["C", "C++", "Robot Operating System (ROS)", "Arduino"],
             "mainPhotoSrc": "../../../static/projects/lineFollower/ROS_Main.JPG",
-            "photosFolder": "../../../static/projects/lineFollower",
+            "photos": [
+              "../../../static/projects/lineFollower/cannyEdge.JPG",
+              "../../../static/projects/lineFollower/movieRobot.gif",
+              "../../../static/projects/lineFollower/ROS_Main.JPG",
+              "../../../static/projects/lineFollower/straight.JPG",
+              "../../../static/projects/lineFollower/turnLeft.JPG"
+             ],
             "links": []
           },
           {
@@ -145,15 +182,21 @@
             "description": "Personal project to create a cool effect of going though mountains on the river.",
             "technologies": ["Processing", "Java"],
             "mainPhotoSrc": "../../../static/projects/mountainFlying/mountainsCapture.PNG",
-            "photosFolder": "../../../static/projects/mountainFlying",
+            "photos": [
+              "../../../static/projects/mountainFlying/FlyingGif.gif",
+              "../../../static/projects/mountainFlying/mountainsCapture.PNG"
+             ],
             "links": []
           },
           {
             "name":"Matrix Rain",
             "description": "Personal project to create a cool effect of the letter rain from the Matrix movie.",
-            "technologies": [],
+            "technologies": ["Processing", "Java"],
             "mainPhotoSrc": "../../../static/projects/matrixRain/RainCapture.PNG",
-            "photosFolder": "../../../static/projects/matrixRain",
+            "photos": [
+              "../../../static/projects/matrixRain/matrixGif.gif",
+              "../../../static/projects/matrixRain/RainCapture.PNG"
+             ],
             "links": [
               {"type": "GitHub", "link":"https://github.com/kbaran1998/MatrixTextJava"}
             ]
@@ -163,7 +206,24 @@
             "description": "Ray Tracer Project for Computer Graphics course at Delft University of Technology where my responsibilities were: Diffuse/Specular shading, Recursive Reflections, Hard and Soft Shadows, Interpolated Normals, Thread Pool and Octree Acceleration Structure.",
             "technologies": ["C++", "C", "OpenGL 3.0"],
             "mainPhotoSrc": "../../../static/projects/rayTracer/carEffects2.jpeg",
-            "photosFolder": "../../../static/projects/rayTracer",
+            "photos": [
+              "../../../static/projects/rayTracer/ball1.jpeg",
+              "../../../static/projects/rayTracer/ball2.jpeg",
+              "../../../static/projects/rayTracer/carEffects.jpeg",
+              "../../../static/projects/rayTracer/carEffects2.jpeg",
+              "../../../static/projects/rayTracer/reflection1.jpeg",
+              "../../../static/projects/rayTracer/reflection2.jpeg",
+              "../../../static/projects/rayTracer/reflection3.jpeg",
+              "../../../static/projects/rayTracer/reflection4.jpeg",
+              "../../../static/projects/rayTracer/reflection5.jpeg",
+              "../../../static/projects/rayTracer/refraction.jpeg",
+              "../../../static/projects/rayTracer/result.bmp",
+              "../../../static/projects/rayTracer/result_2.bmp",
+              "../../../static/projects/rayTracer/scene.PNG",
+              "../../../static/projects/rayTracer/scene2.PNG",
+              "../../../static/projects/rayTracer/tucan.jpeg",
+              "../../../static/projects/rayTracer/tucan2.jpeg"
+             ],
             "links": [
               {"type": "Slides","link":"https://drive.google.com/file/d/1vpzcAkiORpPnPBe7FB4qlVNNU1XAhIR6/view?usp=sharing"}
             ]
@@ -173,8 +233,15 @@
             "description": "Java based group project for Software Engineering Methods course at TU Delft. Worked on the backend of the project funtionality and DAO. We added extra functinalities that the original Pacman game does not have e.g. teleportation and going through walls when getting certain pellet",
             "technologies": ["Java", "JavaFX", "JSON"],
             "mainPhotoSrc": "../../../static/projects/Pacman/Game.PNG",
-            "photosFolder": "../../../static/projects/Pacman",
-            "links": []
+            "photos": [
+              "../../../static/projects/Pacman/Game.PNG",
+              "../../../static/projects/Pacman/LogIn.PNG",
+              "../../../static/projects/Pacman/Menu.PNG",
+              "../../../static/projects/Pacman/SignUp.PNG"
+             ],
+            "links": [
+              {"type": "YouTube", "link": "https://drive.google.com/file/d/11bJa0GdoQfyGWcbEXgvvHd43MzSV7LT2/view?usp=sharing"}
+            ]
           }
         ]
     },

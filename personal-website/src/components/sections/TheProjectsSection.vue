@@ -15,12 +15,21 @@
        who are struggling with mental or work related issues they
        cannot discuss with their colleagues or family.
       </b-card-text>
-      <b-button href="#" variant="primary">More Info</b-button>
+      <b-button variant="primary" pill @click="$bvModal.show('modal-project')">
+        More Info
+      </b-button>
+      <TheModal title="Project">
+        <div>
+          Hello!
+        </div>
+      </TheModal>
     </b-card>
   </div>
 </template>
 
 <script>
+import TheModal from '../TheModal';
+
 export default {
   name: 'TheProjectSection',
   props: {
@@ -30,6 +39,7 @@ export default {
     },
   },
   components: {
+    TheModal,
   },
 };
 </script>
