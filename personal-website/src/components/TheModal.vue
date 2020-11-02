@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     modalId() {
-      return 'modal-'.concat(this.title.toLowerCase());
+      return 'modal-'.concat(this.title.toLowerCase().replace(' ', '-'));
     },
   },
 };
