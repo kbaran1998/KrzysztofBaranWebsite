@@ -115,24 +115,24 @@
                         "link": "../../../static/technologies/vue.jpg"
                     },
                     {
-                      "name": "Bulma.io",
-                      "link": "../../../static/technologies/bulma.png"
+                        "name": "Bulma.io",
+                        "link": "../../../static/technologies/bulma.png"
                     },
                     {
-                      "name": "Buefy",
-                      "link": "../../../static/technologies/buefy.png"
+                        "name": "Buefy",
+                        "link": "../../../static/technologies/buefy.png"
                     },
                     {
-                      "name": "JavaScript",
-                      "link": "../../../static/technologies/javascript.png"
+                        "name": "JavaScript",
+                        "link": "../../../static/technologies/javascript.png"
                     },
                     {
-                      "name": "HTML",
-                      "link": "../../../static/technologies/html.png"
+                        "name": "HTML",
+                        "link": "../../../static/technologies/html.png"
                     },
                     {
-                      "name": "CSS",
-                      "link": "../../../static/technologies/css.jpg"
+                        "name": "CSS",
+                        "link": "../../../static/technologies/css.jpg"
                     }
                 ],
                 "mainPhotoSrc": "../../../static/projects/toptrace/logo.png",
@@ -158,46 +158,46 @@
                 "name": "Robyn Chatbot",
                 "description": "A counselling Chatbot (powered by machine learning) made for Police Officers who are struggling with mental or work related issues they cannot discuss with their colleagues or family. This was a project at Delft University of Technology for 5 people.",
                 "technologies": [
-                  {
-                    "name": "Python",
-                    "link": "../../../static/technologies/html.png"
-                  },
-                  {
-                    "name": "Rasa",
-                    "link": "../../../static/technologies/rasa.png"
-                  },
-                  {
-                    "name": "Imgur API",
-                    "link": "../../../static/technologies/imgur.png"
-                  },
-                  {
-                    "name": "Angular",
-                    "link": "../../../static/technologies/angular.png"
-                  },
-                  {
-                    "name": "JavaScript",
-                    "link": "../../../static/technologies/javascript.png"
-                  },
-                  {
-                    "name": "MySQL",
-                    "link": "../../../static/technologies/sql.jpg"
-                  },
-                  {
-                    "name":"Node.js",
-                    "link": "../../../static/technologies/node.jpg"
-                  },
-                  {
-                    "name": "Redis",
-                    "link": "../../../static/technologies/redis.jpg"
-                  },
-                  {
-                    "name": "Matplotlib",
-                    "link": "../../../static/technologies/matplotlib.jpg"
-                  },
-                  {
-                    "name": "pandas",
-                    "link": "../../../static/technologies/pandas.png"
-                  }
+                    {
+                        "name": "Python",
+                        "link": "../../../static/technologies/html.png"
+                    },
+                    {
+                        "name": "Rasa",
+                        "link": "../../../static/technologies/rasa.png"
+                    },
+                    {
+                        "name": "Imgur API",
+                        "link": "../../../static/technologies/imgur.png"
+                    },
+                    {
+                        "name": "Angular",
+                        "link": "../../../static/technologies/angular.png"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "link": "../../../static/technologies/javascript.png"
+                    },
+                    {
+                        "name": "MySQL",
+                        "link": "../../../static/technologies/sql.jpg"
+                    },
+                    {
+                        "name": "Node.js",
+                        "link": "../../../static/technologies/node.jpg"
+                    },
+                    {
+                        "name": "Redis",
+                        "link": "../../../static/technologies/redis.jpg"
+                    },
+                    {
+                        "name": "Matplotlib",
+                        "link": "../../../static/technologies/matplotlib.jpg"
+                    },
+                    {
+                        "name": "pandas",
+                        "link": "../../../static/technologies/pandas.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/robynChatBot/robynLogo.png",
                 "photos": [
@@ -226,34 +226,34 @@
                 "name": "WeVisit",
                 "description": "An online platform for relatives to connect with patients and clinical staff through video calls.",
                 "technologies": [
-                  {
-                    "name": "Java",
-                    "link": "../../../static/technologies/java.png"
-                  },
-                  {
-                    "name": "Gradle",
-                    "link": "../../../static/technologies/gradle.png"
-                  },
-                  {
-                    "name": "JUnit5",
-                    "link": "../../../static/technologies/junit5.png"
-                  },
-                  {
-                    "name": "Spring",
-                    "link": "../../../static/technologies/spring.png"
-                  },
-                  {
-                    "name": "JavaScript",
-                    "link": "../../../static/technologies/javascript.png"
-                  },
-                  {
-                    "name": "HTML",
-                    "link": "../../../static/technologies/html.png"
-                  },
-                  {
-                    "name": "CSS",
-                    "link": "../../../static/technologies/css.jpg"
-                  }
+                    {
+                        "name": "Java",
+                        "link": "../../../static/technologies/java.png"
+                    },
+                    {
+                        "name": "Gradle",
+                        "link": "../../../static/technologies/gradle.png"
+                    },
+                    {
+                        "name": "JUnit5",
+                        "link": "../../../static/technologies/junit5.png"
+                    },
+                    {
+                        "name": "Spring",
+                        "link": "../../../static/technologies/spring.png"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "link": "../../../static/technologies/javascript.png"
+                    },
+                    {
+                        "name": "HTML",
+                        "link": "../../../static/technologies/html.png"
+                    },
+                    {
+                        "name": "CSS",
+                        "link": "../../../static/technologies/css.jpg"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/weVisit/logo.png",
                 "photos": [
@@ -274,26 +274,26 @@
                 "name": "GetLit",
                 "description": "Java application with GUI and JSON database that is made for people who have low literacy. Since quite a high percentage (13%) of people in the Netherlands have problems with reading, I and my group designed different problem sets with responsive feedback that keeps track of the user’s progress. I was responsible for the backend, frontend and interaction between the database and the application.",
                 "technologies": [
-                  {
-                    "name": "Java",
-                    "link": "../../../static/technologies/java.png"
-                  },
-                  {
-                    "name": "Maven",
-                    "link": "../../../static/technologies/maven.png"
-                  },
-                  {
-                    "name": "JavaFX",
-                    "link": "../../../static/technologies/javafx.png"
-                  },
-                  {
-                    "name": "JSON",
-                    "link": "../../../static/technologies/json.png"
-                  },
-                  {
-                    "name": "TravisCI",
-                    "link": "../../../static/technologies/travisci.png"
-                  }
+                    {
+                        "name": "Java",
+                        "link": "../../../static/technologies/java.png"
+                    },
+                    {
+                        "name": "Maven",
+                        "link": "../../../static/technologies/maven.png"
+                    },
+                    {
+                        "name": "JavaFX",
+                        "link": "../../../static/technologies/javafx.png"
+                    },
+                    {
+                        "name": "JSON",
+                        "link": "../../../static/technologies/json.png"
+                    },
+                    {
+                        "name": "TravisCI",
+                        "link": "../../../static/technologies/travisci.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/GetLit/getLitLogo.PNG",
                 "photos": [
@@ -313,22 +313,22 @@
                 "name": "ROS Line Follower",
                 "description": "Created a line follower with a motor-attached Arduino (Mega 2560) that received movement commands which were generated by the input data from the processed image (from the phone camera) by the laptop and attached sensors on the Arduino.",
                 "technologies": [
-                  {
-                    "name": "C++",
-                    "link": "../../../static/technologies/cpp.jpg"
-                  },
-                  {
-                    "name": "C",
-                    "link": "../../../static/technologies/c.jpg"
-                  },
-                  {
-                    "name": "Robot Operating System (ROS)",
-                    "link": "../../../static/technologies/ros.png"
-                  },
-                  {
-                    "name": "Arduino",
-                    "link": "../../../static/technologies/arduino.png"
-                  }
+                    {
+                        "name": "C++",
+                        "link": "../../../static/technologies/cpp.jpg"
+                    },
+                    {
+                        "name": "C",
+                        "link": "../../../static/technologies/c.jpg"
+                    },
+                    {
+                        "name": "Robot Operating System (ROS)",
+                        "link": "../../../static/technologies/ros.png"
+                    },
+                    {
+                        "name": "Arduino",
+                        "link": "../../../static/technologies/arduino.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/lineFollower/ROS_Main.JPG",
                 "photos": [
@@ -344,14 +344,14 @@
                 "name": "Mountain flying",
                 "description": "Personal project to create a cool effect of going though mountains on the river.",
                 "technologies": [
-                  {
-                    "name": "Processing",
-                    "link": "../../../static/technologies/processing.png"
-                  },
-                  {
-                    "name": "Java",
-                    "link": "../../../static/technologies/java.png"
-                  }
+                    {
+                        "name": "Processing",
+                        "link": "../../../static/technologies/processing.png"
+                    },
+                    {
+                        "name": "Java",
+                        "link": "../../../static/technologies/java.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/mountainFlying/mountainsCapture.PNG",
                 "photos": [
@@ -364,14 +364,14 @@
                 "name": "Matrix Rain",
                 "description": "Personal project to create a cool effect of the letter rain from the Matrix movie.",
                 "technologies": [
-                  {
-                    "name": "Processing",
-                    "link": "../../../static/technologies/processing.png"
-                  },
-                  {
-                    "name": "Java",
-                    "link": "../../../static/technologies/java.png"
-                  }
+                    {
+                        "name": "Processing",
+                        "link": "../../../static/technologies/processing.png"
+                    },
+                    {
+                        "name": "Java",
+                        "link": "../../../static/technologies/java.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/matrixRain/RainCapture.PNG",
                 "photos": [
@@ -389,18 +389,18 @@
                 "name": "Ray Tracer",
                 "description": "Ray Tracer Project for Computer Graphics course at Delft University of Technology where my responsibilities were: Diffuse/Specular shading, Recursive Reflections, Hard and Soft Shadows, Interpolated Normals, Thread Pool and Octree Acceleration Structure.",
                 "technologies": [
-                  {
-                    "name": "C++",
-                    "link": "../../../static/technologies/cpp.jpg"
-                  },
-                  {
-                    "name": "C",
-                    "link": "../../../static/technologies/c.jpg"
-                  },
-                  {
-                    "name": "OpenGL 3.0",
-                    "link": "../../../static/technologies/opengl.png"
-                  }
+                    {
+                        "name": "C++",
+                        "link": "../../../static/technologies/cpp.jpg"
+                    },
+                    {
+                        "name": "C",
+                        "link": "../../../static/technologies/c.jpg"
+                    },
+                    {
+                        "name": "OpenGL 3.0",
+                        "link": "../../../static/technologies/opengl.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/rayTracer/carEffects2.jpeg",
                 "photos": [
@@ -432,22 +432,22 @@
                 "name": "Java Pacman",
                 "description": "Java based group project for Software Engineering Methods course at TU Delft. Worked on the backend of the project funtionality and DAO. We added extra functinalities that the original Pacman game does not have e.g. teleportation and going through walls when getting certain pellet",
                 "technologies": [
-                  {
-                    "name": "Java",
-                    "link": "../../../static/technologies/java.png"
-                  },
-                  {
-                    "name": "Maven",
-                    "link": "../../../static/technologies/maven.png"
-                  },
-                  {
-                    "name": "JavaFX",
-                    "link": "../../../static/technologies/javafx.png"
-                  },
-                  {
-                    "name": "JSON",
-                    "link": "../../../static/technologies/json.png"
-                  }
+                    {
+                        "name": "Java",
+                        "link": "../../../static/technologies/java.png"
+                    },
+                    {
+                        "name": "Maven",
+                        "link": "../../../static/technologies/maven.png"
+                    },
+                    {
+                        "name": "JavaFX",
+                        "link": "../../../static/technologies/javafx.png"
+                    },
+                    {
+                        "name": "JSON",
+                        "link": "../../../static/technologies/json.png"
+                    }
                 ],
                 "mainPhotoSrc": "../../../static/projects/Pacman/Game.PNG",
                 "photos": [
