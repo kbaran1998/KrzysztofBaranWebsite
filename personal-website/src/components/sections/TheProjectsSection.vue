@@ -26,13 +26,23 @@
         </b-avatar>
         <br>
         <br>
-        <b-button
-          variant="outline-success"
-          pill
-          class="info-button"
-          @click="$bvModal.show('modal-'.concat(createTagText(project.name)))">
-          Gallery
-        </b-button>
+        <div class="social-icons">
+          <a target="_blank"
+            v-for="(link, index) in project.links"
+            :key="`link-${index}`"
+            :href="link.link"
+            v-b-tooltip.hover
+            :title="link.link">
+              <font-awesome-icon :icon="['fab', createTagText(link.type)]" />
+          </a>
+          <b-button
+            variant="outline-success"
+            pill
+            class="info-button"
+            @click="$bvModal.show('modal-'.concat(createTagText(project.name)))">
+            Gallery
+          </b-button>
+        </div>
         <TheModal :title="project.name">
           <div>
             <b-carousel
@@ -66,8 +76,8 @@
               :title="tech.name"
               :src="tech.link">
             </b-avatar>
-            <h3 v-if="project.links">Links</h3>
-            <div v-if="project.links" class="social-icons">
+            <div v-if="project.links.length" class="social-icons">
+              <h3>Links</h3>
               <a target="_blank"
                 v-for="(link, index) in project.links"
                 :key="`link-${index}`"
@@ -146,13 +156,13 @@ export default {
   color:yellow;
 }
 
-.info-button {
-  margin-top: 10px;
-  position:absolute;
-  bottom:1px;
-}
 
 .b-avatar-img {
   border: 4px solid aqua;
+}
+
+#card-buttons {
+  display: flex;
+  flex-direction: row;
 }
 </style>
