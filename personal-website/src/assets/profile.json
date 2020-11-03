@@ -65,7 +65,7 @@
                 "company": "Delft University of Technology",
                 "position": "TEACHING ASSISTANT",
                 "place": "Delft, The Netherlands",
-                "from": "September 2017",
+                "from": "September 2018",
                 "to": "PRESENT",
                 "points": [
                     "Teaching Assistant for TI1406/CSE1400 Computer Organisation (2018/19, 2019/20, 2020/21), TI2206/CSE2115 Software Engineering Methods (2019/20), TI2726‑C/CSE2430 Operating Systems (2019/20) and TI3115TU Software Engineering Methods for Minor students (2020/21) courses.",
@@ -160,7 +160,7 @@
                 "technologies": [
                     {
                         "name": "Python",
-                        "link": "../../../static/technologies/html.png"
+                        "link": "../../../static/technologies/python.jpg"
                     },
                     {
                         "name": "Rasa",
@@ -217,7 +217,7 @@
                         "link": "https://www.youtube.com/watch?v=RvcfJkFnMp8"
                     },
                     {
-                        "type": "Website",
+                        "type": "wpforms",
                         "link": "http://context-rasa.ewi.tudelft.nl/home"
                     }
                 ]
@@ -265,7 +265,7 @@
                 ],
                 "links": [
                     {
-                        "type": "Website",
+                        "type": "wpforms",
                         "link": "https://wevisit.hospital/"
                     }
                 ]
@@ -423,7 +423,7 @@
                 ],
                 "links": [
                     {
-                        "type": "Slides",
+                        "type": "Google Drive",
                         "link": "https://drive.google.com/file/d/1vpzcAkiORpPnPBe7FB4qlVNNU1XAhIR6/view?usp=sharing"
                     }
                 ]
