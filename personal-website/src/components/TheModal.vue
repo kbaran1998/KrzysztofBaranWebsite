@@ -3,10 +3,16 @@
     <template #modal-title>
       {{title}}
     </template>
-    <div class="d-block text-center">
+    <div class="d-block">
       <slot></slot>
     </div>
-    <b-button class="mt-3" block @click="$bvModal.hide(modalId)">Close Me</b-button>
+    <b-button
+      variant="danger"
+      class="mt-3"
+      block
+      @click="$bvModal.hide(modalId)">
+      Close Me
+    </b-button>
   </b-modal>
 </template>
 

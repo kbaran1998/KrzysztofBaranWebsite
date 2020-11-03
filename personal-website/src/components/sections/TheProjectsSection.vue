@@ -16,8 +16,16 @@
       <b-card-text class="description-text">
         {{ project.description }}
       </b-card-text>
+      <b-avatar
+        v-for="(tech, index) in project.technologies"
+        :key="index"
+        size="2em"
+        v-b-tooltip.hover
+        :title="tech.name"
+        :src="tech.link">
+      </b-avatar>
       <b-button
-        variant="primary"
+        variant="outline-success"
         pill
         class="info-button"
         @click="$bvModal.show('modal-'.concat(project.name.toLowerCase().replace(' ', '-')))">
@@ -26,25 +34,38 @@
       <TheModal :title="project.name">
         <div>
           <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      :interval="4000"
-      controls
-      indicators
-      background="#ababab"
-      style="text-shadow: 1px 1px 2px #333;"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
-      <b-carousel-slide
-        v-for="(photo, index) in project.photos"
-        :key="index"
-        :img-src="photo"
-        class="carousel-image"
-        img-width="600"
-        img-height="auto"
-      ></b-carousel-slide>
-    </b-carousel>
+            id="carousel-1"
+            v-model="slide"
+            :interval="4000"
+            controls
+            indicators
+            background="#ababab"
+            style="text-shadow: 1px 1px 2px #333;"
+            @sliding-start="onSlideStart"
+            @sliding-end="onSlideEnd"
+          >
+          <b-carousel-slide
+            v-for="(photo, index) in project.photos"
+            :key="index"
+            :img-src="photo"
+            class="carousel-image"
+            img-width="600"
+            img-height="auto"
+          ></b-carousel-slide>
+        </b-carousel>
+        <h3>Description</h3>
+          <p>{{ project.description }}</p>
+        <h3>Technologies</h3>
+          <b-avatar
+            v-for="(tech, index) in project.technologies"
+            :key="index"
+            size="5em"
+            v-b-tooltip.hover
+            :title="tech.name"
+            :src="tech.link">
+          </b-avatar>
+        <h3>Links</h3>
+        <p></p>
         </div>
       </TheModal>
     </b-card>
@@ -97,18 +118,20 @@ export default {
 }
 
 .cards-container {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-.cards-container > div {
-  margin: 6px;
-}
-.info-button {
-  position:absolute;
-  bottom:3px;
+.cards-container > article {
+  margin: 10px;
+  margin-bottom: 10px;
 }
 .card-title {
   font-weight: bold;
   color:yellow;
+}
+
+.b-avatar-img {
+  border: 4px solid aqua;
 }
 </style>
