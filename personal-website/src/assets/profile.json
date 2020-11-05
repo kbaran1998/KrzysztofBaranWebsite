@@ -469,82 +469,165 @@
         "name": "Skills",
         "tag": "skills",
         "skills": [
-          {
-            "name": "Java",
-            "link": "../../../static/technologies/java.png"
-          },
-          {
-            "name": "Python",
-            "link": "../../../static/technologies/python.jpg"
-          },
-          {
-            "name": "Git",
-            "link": "../../../static/technologies/git.png"
-          },
-          {
-            "name": "Gradle",
-            "link": "../../../static/technologies/gradle.png"
-          },
-          {
-            "name": "C++",
-            "link": "../../../static/technologies/cpp.jpg"
-          },
-          {
-            "name": "JavaScript",
-            "link": "../../../static/technologies/javascript.png"
-          },
-          {
-            "name": "Vue.js",
-            "link": "../../../static/technologies/vue.jpg"
-          },
-          {
-            "name": "Node.js",
-            "link": "../../../static/technologies/node.jpg"
-          },
-          {
-            "name": "MongoDB",
-            "link": "../../../static/technologies/mongoDB.png"
-          },
-          {
-            "name": "MySQL",
-            "link": "../../../static/technologies/sql.jpg"
-          },
-          {
-            "name": "PostgreSQL",
-            "link": "../../../static/technologies/postgresql.png"
-          },
-          {
-            "name": "Redis",
-            "link": "../../../static/technologies/redis.jpg"
-          },
-          {
-            "name": "Spring",
-            "link": "../../../static/technologies/spring.png"
-          },
-          {
-            "name": "Linux (Ubuntiu 18.04)",
-            "link": "../../../static/technologies/ubuntu.jpg"
-          },
-          {
-            "name": "REST APIs",
-            "link": "../../../static/technologies/api.png"
-          }
+            {
+                "name": "Java",
+                "link": "../../../static/technologies/java.png"
+            },
+            {
+                "name": "Python",
+                "link": "../../../static/technologies/python.jpg"
+            },
+            {
+                "name": "Git",
+                "link": "../../../static/technologies/git.png"
+            },
+            {
+                "name": "Gradle",
+                "link": "../../../static/technologies/gradle.png"
+            },
+            {
+                "name": "C++",
+                "link": "../../../static/technologies/cpp.jpg"
+            },
+            {
+                "name": "JavaScript",
+                "link": "../../../static/technologies/javascript.png"
+            },
+            {
+                "name": "Vue.js",
+                "link": "../../../static/technologies/vue.jpg"
+            },
+            {
+                "name": "Node.js",
+                "link": "../../../static/technologies/node.jpg"
+            },
+            {
+                "name": "MongoDB",
+                "link": "../../../static/technologies/mongoDB.png"
+            },
+            {
+                "name": "MySQL",
+                "link": "../../../static/technologies/sql.jpg"
+            },
+            {
+                "name": "PostgreSQL",
+                "link": "../../../static/technologies/postgresql.png"
+            },
+            {
+                "name": "Redis",
+                "link": "../../../static/technologies/redis.jpg"
+            },
+            {
+                "name": "Spring",
+                "link": "../../../static/technologies/spring.png"
+            },
+            {
+                "name": "Linux (Ubuntiu 18.04)",
+                "link": "../../../static/technologies/ubuntu.jpg"
+            },
+            {
+                "name": "REST APIs",
+                "link": "../../../static/technologies/api.png"
+            }
         ]
     },
     {
         "name": "Publications",
-        "tag": "publications"
+        "tag": "publications",
+        "publications": [
+            {
+                "title": "Procedural automation of general game level generation: the good, the bad and the ugly",
+                "authors": [
+                    "Krzysztof Baran",
+                    "Caspar Krijgsman",
+                    "Steven Lambregts",
+                    "Matthijs Wisboom",
+                    "Noah Posner"
+                ],
+                "published": "April 2020",
+                "link": "https://www.researchgate.net/publication/340630503_Procedural_automation_of_general_game_level_generation_the_good_the_bad_and_the_ugly",
+                "abstract": "The monumental goal of Artificial Intelligence (AI) is to model general solutions that can be applied to perform a variety of tasks that normally demand human intelligence to solve. Traditionally human game developers painstakingly design and tweak levels until achieving the precise output of their heart's desire. In the gaming industry, AI for level generation can reduce the need for labour-intensive human design. A general game AI for level generation can only be created once we have a method to describe video games. Video Game Description Language (VGDL) is a high-level language for describing 2D arcade games that consists of two parts, a game and level description. Using this language allows us to analyze games at their mechanical level. The problem of General Video Game Level Generation (GVG-LG) can thus be defined as follows: construct a generator that, given a game (e.g. described in VGDL) which can be played by some AI player, builds any required number of different levels for that game which are enjoyable for humans to play [1]. This research investigates the characteristics of what makes automation of general level generation for 2D video games difficult, identifying what exactly makes it so challenging. Solutions such as algorithmic approaches and design patterns shall be presented. By investigating the techniques that have been used so far, empirical evidence will provide key insight into which techniques are most promising to improve level generation quality in the future.",
+                "extraLinks": [
+                    {
+                        "type": "YouTube",
+                        "link": "https://www.youtube.com/watch?v=HsEVRpOl-uw&feature=youtu.be",
+                        "explanation": "A short video explanation for this paper"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Program Committees",
-        "tag": "program-committees"
+        "tag": "program-committees",
+        "committees": [
+          {
+            "year":"2018",
+            "organisation":"Introduction Programme SUMMER 2018",
+            "position":"New Students’ coach",
+            "place":"Delft, The Netherlands",
+            "src":"../../../static/introProgramme.png"
+          },
+          {
+            "year":"2019",
+            "organisation":"Introduction Programme WINTER/SUMMER 2019",
+            "position":"New Students’ coach",
+            "place":"Delft, The Netherlands",
+            "src":"../../../static/introProgramme.png"
+          },
+          {
+            "year":"2020",
+            "organisation":"Introduction Programme WINTER 2020",
+            "position":"New Students’ coach",
+            "place":"Delft, The Netherlands",
+            "src":"../../../static/introProgramme.png"
+          },
+          {
+            "year":"2020",
+            "organisation":"Lijst Bèta",
+            "position":"University Student Party Representative",
+            "place":"Delft, The Netherlands",
+            "src":"../../../static/lijstBeta.jpg"
+          }
+        ]
     },
     {
         "name": "Extracurricular Activities",
-        "tag": "extracurricular-activities"
+        "tag": "extracurricular-activities",
+        "activities": [
+          {
+            "organisation": "Delft University of Technology",
+            "from":"August 2018",
+            "to":"March 2019",
+            "place":"Delft, The Netherlands",
+            "activity":"First Year Student Mentor",
+            "description":"Helping 2 groups of 25 first‑year students through their Computer Science Bachelor at TU Delft through mentoring, giving advice and listening to student’s concerns.",
+            "src":"../../../static/tudelft.png"
+          },
+          {
+            "organisation": "D.S.Z Wave",
+            "from":"September 2014",
+            "to":"PRESENT",
+            "place":"The Netherlands",
+            "activity":"Swimming",
+            "description":" I was member of High School swimming team, The Hague Swimming Club and currently a member Delft Student Swimming Association where I swam competitively.",
+            "src":"../../../static/wave.png"
+          },
+          {
+            "organisation": "Duke of Edinburgh Award (Silver and Bronze)",
+            "from":"June 2014",
+            "to":"June 2016",
+            "place":"The Netherlands",
+            "activity":"Participator",
+            "description":"Award Program",
+            "src":"../../../static/duke.jpg"
+          }
+        ]
     },
     {
         "name": "Contact",
-        "tag": "contact-me"
+        "tag": "contact-me",
+        "email":"krysbaran@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/krzysztof-baran-70701a153/"
     }
 ]

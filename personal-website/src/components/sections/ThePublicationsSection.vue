@@ -4,7 +4,13 @@
 
 <script>
 export default {
-
+  name: 'ThePublicationsSection',
+  props: {
+    publicationsData: {
+      type: Object,
+      required: true,
+    },
+  },
 };
 </script>
 
