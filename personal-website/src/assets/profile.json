@@ -467,7 +467,69 @@
     },
     {
         "name": "Skills",
-        "tag": "skills"
+        "tag": "skills",
+        "skills": [
+          {
+            "name": "Java",
+            "link": "../../../static/technologies/java.png"
+          },
+          {
+            "name": "Python",
+            "link": "../../../static/technologies/python.jpg"
+          },
+          {
+            "name": "Git",
+            "link": "../../../static/technologies/git.png"
+          },
+          {
+            "name": "Gradle",
+            "link": "../../../static/technologies/gradle.png"
+          },
+          {
+            "name": "C++",
+            "link": "../../../static/technologies/cpp.jpg"
+          },
+          {
+            "name": "JavaScript",
+            "link": "../../../static/technologies/javascript.png"
+          },
+          {
+            "name": "Vue.js",
+            "link": "../../../static/technologies/vue.jpg"
+          },
+          {
+            "name": "Node.js",
+            "link": "../../../static/technologies/node.jpg"
+          },
+          {
+            "name": "MongoDB",
+            "link": "../../../static/technologies/mongoDB.png"
+          },
+          {
+            "name": "MySQL",
+            "link": "../../../static/technologies/sql.jpg"
+          },
+          {
+            "name": "PostgreSQL",
+            "link": "../../../static/technologies/postgresql.png"
+          },
+          {
+            "name": "Redis",
+            "link": "../../../static/technologies/redis.jpg"
+          },
+          {
+            "name": "Spring",
+            "link": "../../../static/technologies/spring.png"
+          },
+          {
+            "name": "Linux (Ubuntiu 18.04)",
+            "link": "../../../static/technologies/ubuntu.jpg"
+          },
+          {
+            "name": "REST APIs",
+            "link": "../../../static/technologies/api.png"
+          }
+        ]
     },
     {
         "name": "Publications",

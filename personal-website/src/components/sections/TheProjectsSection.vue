@@ -44,7 +44,7 @@
           </b-button>
         </div>
         <TheModal :title="project.name">
-          <div>
+          <div id="projectModal">
             <b-carousel
               id="carousel-1"
               v-model="slide"
@@ -157,7 +157,11 @@ export default {
 }
 
 
-.b-avatar-img {
+.projectCard > .b-avatar-img {
+  border: 4px solid aqua;
+}
+
+.b-avatar > .b-avatar-img {
   border: 4px solid aqua;
 }
 
