@@ -27,6 +27,26 @@
         data-aos="fade">
         <Skills :skillsData="profileSkills" />
       </ResumeSection>
+      <ResumeSection
+        color="#a0acb9"
+        data-aos="fade">
+        <Publication :publicationsData="profilePublications" />
+      </ResumeSection>
+      <ResumeSection
+        color="#a0acb9"
+        data-aos="fade">
+        <Committees :committeesData="profileProgramCommittees" />
+      </ResumeSection>
+      <ResumeSection
+        color="#a0acb9"
+        data-aos="fade">
+        <Activities :activitiesData="profileExtracurricularActivities" />
+      </ResumeSection>
+      <ResumeSection
+        color="#a0acb9"
+        data-aos="fade">
+        <Contact :contactData="profileContact" />
+      </ResumeSection>
     </b-container>
   </div>
 </template>
@@ -40,6 +60,10 @@ import Education from './sections/TheEducationSection';
 import Experience from './sections/TheExperienceSection';
 import Projects from './sections/TheProjectsSection';
 import Skills from './sections/TheSkillsSection';
+import Publication from './sections/ThePublicationsSection';
+import Committees from './sections/TheCommitteesSection';
+import Activities from './sections/TheActivitiesSection';
+import Contact from './sections/TheContactSection';
 
 export default {
   name: 'MainView',
@@ -51,6 +75,10 @@ export default {
     Experience,
     Projects,
     Skills,
+    Publication,
+    Committees,
+    Activities,
+    Contact,
   },
   data() {
     return {

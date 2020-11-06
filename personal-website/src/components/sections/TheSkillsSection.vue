@@ -1,7 +1,7 @@
 <template>
   <div :id="skillsData.tag">
     <div>
-      <h1 class="display-1">{{skillsData.name}}</h1>
+      <h2 class="mb-5">{{skillsData.name}}</h2>
       <div class="bubles-container">
         <b-avatar
           v-for="(skill, index) in skillsData.skills"
@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      bubbleSize: '10rem',
+      bubbleSize: '5rem',
     };
   },
 };
