@@ -3,7 +3,7 @@ import 'mutationobserver-shim';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faUserSecret, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faLinkedin, faGithub, faGoogleDrive, faYoutube, faWpforms, faResearchgate } from '@fortawesome/free-brands-svg-icons';
 // The Vue build version to load with the `import` command
@@ -14,7 +14,7 @@ import './plugins/bootstrap-vue';
 import App from './App';
 
 library.add(faUserSecret,
-  faLinkedin, faGithub, faGoogleDrive, faYoutube, faWpforms, faResearchgate);
+  faLinkedin, faGithub, faGoogleDrive, faYoutube, faWpforms, faResearchgate, faEnvelope);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
